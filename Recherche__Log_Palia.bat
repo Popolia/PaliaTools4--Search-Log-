@@ -1,17 +1,27 @@
 @echo off
 
+echo Recherche de log
+     Log search
+timeout /t 1 /nobreak
+
 :: Utilisez la variable %USERPROFILE% pour obtenir le profil utilisateur actuel
 set "userProfile=%USERPROFILE%"
 
-:: Chemin du fichier Palia.log générique pour tous les utilisateurs
-set "logFilePath=%userProfile%\AppData\Local\Palia\Saved\Logs\Palia.log"
+:: Chemin du dossier des fichiers de journal Palia
+set "logFolderPath=%userProfile%\AppData\Local\Palia\Saved\Logs"
 
-:: Vérifier si le fichier existe
-if exist "%logFilePath%" (
+:: Rechercher le dernier fichier journal Palia dans le dossier
+for /f %%f in ('dir /b /od "%logFolderPath%\Palia*.log"') do (
+    set "latestLogFile=%%f"
+)
+
+:: Vérifier si le fichier journal le plus récent existe
+if defined latestLogFile (
+    set "logFilePath=%logFolderPath%\!latestLogFile!"
     start "" "%logFilePath%"
 ) else (
-    echo Le fichier Palia.log n'a pas été trouvé.
-    echo The Palia.log file was not found.
+    echo Aucun fichier journal Palia n'a été trouvé.
+    echo No Palia log files were found.
 )
 
 :: Ligne de commande "pause" pour maintenir la fenêtre ouverte
