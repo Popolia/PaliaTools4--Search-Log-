@@ -1,7 +1,7 @@
 @echo off
 
 echo Recherche de log
-     Log search
+echo Log search
 timeout /t 1 /nobreak
 
 :: Utilisez la variable %USERPROFILE% pour obtenir le profil utilisateur actuel
