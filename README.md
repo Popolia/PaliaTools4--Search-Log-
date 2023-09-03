@@ -8,7 +8,7 @@ I'll give you the .bat because  file, it's quicker, but there's nothing to stop 
 
 How do I view the file?
 
-in Github just left-click sur Del_registre_singularity 6.bat
+in Github just left-click sur Recherche__Log_Palia.bat
 
 ![imaffffge](https://github.com/Popolia/PaliaTools2-error-os-5-2-3-32-424-/assets/69745473/0984521e-852a-46d6-a592-61e91acaa745)
 ![imaffffge2](https://github.com/Popolia/PaliaTools2-error-os-5-2-3-32-424-/assets/69745473/53918b74-b695-46f9-a746-99bd5d78b2f8)
