@@ -1,4 +1,4 @@
-# PaliaTools4 (Log)
+# PaliaTools4 (Search Log)
  PaliaTools-Log-
 
 Why am I getting this message?
