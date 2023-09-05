@@ -4,6 +4,7 @@
 Ps: a new version is possible in .ps1
 
 ps2 : following a request from several users an exe has been created  ,  just download the .exe now
+      when you launch the .exe there will be more problems than with the .bat or .ps1 it will open the .log file directly.
 
 Why am I getting this message?
 
