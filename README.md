@@ -1,6 +1,8 @@
 # PaliaTools4 (Search Log)
  PaliaTools-Log-
 
+ps2 : following a request from several users an exe has been created  ,  just download the .exe now
+
 Ps: a new version is possible in .ps1
 
 Why am I getting this message?
