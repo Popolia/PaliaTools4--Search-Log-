@@ -1,6 +1,8 @@
 # PaliaTools4 (Search Log)
  PaliaTools-Log-
 
+Ps: a new version is possible in .ps1
+
 Why am I getting this message?
 
 to answer your question about a .bat file, most computers report .bat files downloaded from the internet as extremely dangerous and prevent you from running them. This is why it is often preferable to create your own file".
